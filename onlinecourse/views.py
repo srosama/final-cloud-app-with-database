@@ -9,6 +9,7 @@ from django.views import generic
 from django.contrib.auth import login, logout, authenticate
 from .models import Course, Enrollment, Question, Choice, Submission
 import logging
+from .models import *
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 # Create your views here.
